@@ -16,7 +16,6 @@ def evaluate(model_path, test_path, output_path):
     """
     Model loadin, evaluation and generation of metrics report
     """
-        
     X_test = pd.read_csv(Path(test_path) / "test.csv")
     y_test = X_test[X_test.columns[-1]]
     X_test = X_test.drop(X_test.columns[-1], axis=1)
