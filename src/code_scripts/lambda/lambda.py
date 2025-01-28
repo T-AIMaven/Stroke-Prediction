@@ -8,7 +8,6 @@ import time
 
 sagemaker = boto3.client("sagemaker")
 
-
 def lambda_handler(event, context):
     # If we are calling this function from EventBridge,
     # we need to extract the model package ARN and the
