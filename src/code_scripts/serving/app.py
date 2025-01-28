@@ -8,7 +8,6 @@ import json
 import joblib
 import logging
 
-
 from flask import Flask, request, jsonify
 from pathlib import Path
 import xgboost as xgb
