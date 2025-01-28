@@ -1,8 +1,5 @@
 # MLOPS STROKE PREDICTION ⚱️
 
-<p align="center">
-  <img width="976" alt="aws" src="https://github.com/benitomartin/peft-gemma-2b/assets/116911431/ad464ac5-e4d0-4ed0-bb36-a1dbe4b9c613">
-</p>
 
 This is a personal MLOps project based on a [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) dataset for stroke prediction. 
 
@@ -38,10 +35,6 @@ The project has been structured with the following folders and files:
 
 The dataset was obtained from Kaggle and contains 5110  rows and 10 columns to detect stroke predictions. To prepare the data for modelling, an **Exploratory Data Analysis** was conducted where it was detected that the dataset is very imbalance (95% no stroke, 5% stroke). For modeling, the categorical features where encoded, XGBoost was use das model and the best roc-auc threshold was selected for the predictions using aditionally threshold-moving for the predictions due to the imbalance. The learning rate was tuned in order to find the best one on the deployed model.
 
-<p align="center">
-    <img src="https://github.com/benitomartin/peft-gemma-2b/assets/116911431/f306a317-c7d7-470d-8adc-c36c7951d539">
-</p>
-
 ## Pipeline Deployment
 
 All pipelines where deployed on AWS SageMaker, as well as the Model Registry and Endpoints. The following pipelines where created:
@@ -56,6 +49,3 @@ All pipelines where deployed on AWS SageMaker, as well as the Model Registry and
 
 Additionally the experiments were tracked on Comel ML.
 
-<p align="center">
-    <img src="https://github.com/benitomartin/mlops-aws-stroke/assets/116911431/892ead03-7c8f-4e61-ad75-7abeee35e11b">
-    </p>
