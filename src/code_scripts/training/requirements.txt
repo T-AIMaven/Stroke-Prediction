@@ -1,0 +1,10 @@
+#| label: requirements.txt
+#| filename: requirements.txt
+#| code-line-numbers: false
+
+comet_ml
+urllib3==1.26.5
+pandas
+scikit-learn==1.2.1
+urllib3==1.26.5
+xgboost==1.7.1

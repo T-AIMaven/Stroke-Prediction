@@ -1,0 +1,1 @@
+{"metrics": {"auc": {"value": 0.8577570921985815}, "best_threshold": {"value": 0.019277844578027725}, "precision_custom": {"value": 0.13302752293577982}, "recall_custom": {"value": 0.90625}, "f1_custom": {"value": 0.232}}}

@@ -1,0 +1,10 @@
+# | filename: requirements.txt
+# | code-line-numbers: true
+
+sagemaker-training
+packaging
+pandas
+scikit-learn==1.2.1
+comet_ml
+urllib3==1.26.5
+xgboost==1.7.1
