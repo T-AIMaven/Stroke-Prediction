@@ -15,6 +15,7 @@ def lambda_handler(event, context):
     # calling this function from the pipeline, we can
     # assume the model is approved and we can get the
     # model package ARN as a direct parameter.
+    
     if "detail" in event:
         model_package_arn = event["detail"]["ModelPackageArn"]
         approval_status = event["detail"]["ModelApprovalStatus"]
